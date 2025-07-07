@@ -1,0 +1,105 @@
+#################################################################
+# KEYBOARD BINDINGS FOR ANY TWM
+#################################################################
+
+#################################################################
+# SUPER + FUNCTION KEYS
+#################################################################
+
+super + z
+    rofi -show run
+
+super + x
+    rofi -show drun
+
+#################################################################
+# SUPER + KEYS
+#################################################################
+
+#Browser
+super + s
+    firefox
+
+#Chrome Lihong
+#~ super + z
+#~   chromium --profile-directory=Default
+
+#Chrome JustMake
+#super + r
+#    chromium --profile-directory="Profile 1"
+
+#logout
+#~ super + x
+#~   archlinux-logout
+
+#super + v
+#     pavucontrol
+
+#Terminal
+super + Return
+    xfce4-terminal
+
+super + m
+    xfce4-settings-manager
+
+# Lock Screen
+# super + l
+#    xflock4
+
+super + k
+    archlinux-logout
+
+#super + l
+#    betterlockscreen -l --off 5
+
+#################################################################
+# SUPER + SHIFT KEYS
+#################################################################
+
+#File-Manager
+super + shift + Return
+    thunar
+
+#reload sxhkd:
+super + shift + s
+    pkill -USR1 -x sxhkd
+
+#super + shift + x
+#    xfce4-session-logout
+
+#Xkill
+super + shift + Escape
+    xkill
+
+#################################################################
+# CTRL + ALT KEYS
+#################################################################
+
+#LockScreen
+#ctrl + alt + l
+#    xscreensaver-command -lock
+
+#################################################################
+# ALT + KEYS
+#################################################################
+
+alt + F1
+    rofi -show run
+
+alt + F2
+    rofi -show drun
+
+#################################################################
+# CONTROL + SHIFT KEYS
+#################################################################
+
+#Xcfe4-TaskManager
+ctrl + shift + Escape
+    xfce4-taskmanager
+
+#################################################################
+# Special
+#################################################################
+
+# Print
+#    flameshot gui
