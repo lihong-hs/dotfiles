@@ -1,0 +1,29 @@
+# Set the default editor
+export EDITOR='nvim'
+export VISUAL='nvim'
+
+# History
+shopt -s histappend
+export HISTSIZE=5000
+export HISTCONTROL=ignoreboth:erasedups
+
+# Executables PATH
+if [ -d "$HOME/.bin" ] ;
+  then PATH="$HOME/.bin:$PATH"
+fi
+
+if [ -d "$HOME/.local/bin" ] ;
+  then PATH="$HOME/.local/bin:$PATH"
+fi
+
+# PATH changes
+[[ -r ~/.profile ]] && source ~/.profile
+
+# shell aliases
+[[ -r ~/.shell_aliases ]] && source ~/.shell_aliases
+
+# Ignore upper and lowercase when TAB completion
+bind "set completion-ignore-case on"
+
+# zoxide shell integrations
+eval "$(zoxide init --cmd cd bash)"

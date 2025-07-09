@@ -14,6 +14,7 @@ source "${ZINIT_HOME}/zinit.zsh"
 export EDITOR='nvim'
 export VISUAL='nvim'
 
+# Executables PATH
 if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
 fi
@@ -75,29 +76,13 @@ zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
-# Aliases
-#list
-alias ls='ls --color=auto'
-alias la='ls -a'
-alias ll='ls -alFh'
-alias l='ls'
-alias l.="ls -A | egrep '^\.'"
-alias listdir="ls -d */ > list"
 
-alias vim='nvim'
-alias c='clear'
+# PATH changes
+[[ -r ~/.profile ]] && source ~/.profile
 
-alias lgit='lazygit'
+# shell aliases
+[[ -r ~/.shell_aliases ]] && source ~/.shell_aliases
 
-alias cm='chezmoi'
-alias cme='chezmoi edit'
-
-# Shell integrations
+# zoxide and fzf shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
-
-{{ if eq .chezmoi.osRelease.name "Arch Linux" -}}
-{{-   include ".bashrc_archlinux" -}}
-{{ else if eq .chezmoi.osRelease.name "NixOS" -}}
-{{-   include ".bashrc_nixos" -}}
-{{- end -}}
