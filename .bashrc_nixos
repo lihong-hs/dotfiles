@@ -4,7 +4,8 @@ export XDG_DATA_DIRS=$XDG_DATA_DIRS:/usr/share:/var/lib/flatpak/exports/share:$H
 
 alias nrun='nix-shell -p $1'
 alias nswitch='sudo nixos-rebuild switch'
-alias nupdate='sudo nixos-rebuild switch --upgrade'
 alias nclean='sudo nix-collect-garbage -d'
-alias cleanup='nix-collect-garbage; sudo nix-collect-garbage -d'
-alias cleanup-dryrun='nix-collect-garbage -d --dry-run; sudo nix-collect-garbage -d --dry-run'
+alias cleanup='nix-collect-garbage && sudo nix-collect-garbage -d'
+alias cleanup-dryrun='nix-collect-garbage -d --dry-run && sudo nix-collect-garbage -d --dry-run'
+
+alias dup='sudo nixos-rebuild switch --upgrade'
