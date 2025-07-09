@@ -81,7 +81,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 [[ -r ~/.profile ]] && source ~/.profile
 
 # shell aliases
-[[ -r ~/.shell_aliases ]] && source ~/.shell_aliases
+[[ -r ~/.shell_common ]] && source ~/.shell_common
 
 # zoxide and fzf shell integrations
 eval "$(fzf --zsh)"
