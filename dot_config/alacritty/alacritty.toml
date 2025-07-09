@@ -36,7 +36,7 @@ white = "0xb1bac4"
 TERM = "xterm-256color"
 
 [font]
-size = 14
+size = 12
 
 [font.bold]
 family = "JetBrainsMono Nerd Font"
