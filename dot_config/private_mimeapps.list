@@ -1,0 +1,13 @@
+[Default Applications]
+text/plain=org.gnome.TextEditor.desktop
+inode/directory=thunar.desktop
+application/octet-stream=geany.desktop
+
+[Added Associations]
+text/plain=org.gnome.TextEditor.desktop;geany.desktop;
+inode/directory=thunar.desktop;pcmanfm-qt.desktop;
+text/x-makefile=geany.desktop;
+application/yaml=geany.desktop;
+application/x-shellscript=geany.desktop;
+application/x-zerosize=geany.desktop;
+application/octet-stream=geany.desktop;

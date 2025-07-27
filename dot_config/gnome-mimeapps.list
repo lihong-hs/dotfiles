@@ -1,0 +1,7 @@
+[Default Applications]
+inode/directory=thunar.desktop
+text/x-makefile=geany.desktop
+application/yaml=geany.desktop
+application/x-shellscript=geany.desktop
+text/plain=geany.desktop
+application/x-zerosize=geany.desktop
