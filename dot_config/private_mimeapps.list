@@ -1,13 +1,14 @@
 [Default Applications]
-text/plain=org.gnome.TextEditor.desktop
+text/plain=org.lite_xl.lite_xl.desktop
 inode/directory=thunar.desktop
-application/octet-stream=geany.desktop
+application/octet-stream=org.lite_xl.lite_xl.desktop
 
 [Added Associations]
-text/plain=org.gnome.TextEditor.desktop;geany.desktop;
+text/plain=org.lite_xl.lite_xl.desktop
 inode/directory=thunar.desktop;pcmanfm-qt.desktop;
-text/x-makefile=geany.desktop;
-application/yaml=geany.desktop;
-application/x-shellscript=geany.desktop;
-application/x-zerosize=geany.desktop;
-application/octet-stream=geany.desktop;
+text/x-makefile=org.lite_xl.lite_xl.desktop;
+application/yaml=org.lite_xl.lite_xl.desktop;
+application/x-shellscript=org.lite_xl.lite_xl.desktop;
+application/x-zerosize=org.lite_xl.lite_xl.desktop;
+application/octet-stream=org.lite_xl.lite_xl.desktop;
+image/svg+xml=org.xfce.ristretto.desktop;

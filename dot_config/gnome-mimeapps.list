@@ -1,7 +1,7 @@
 [Default Applications]
 inode/directory=thunar.desktop
-text/x-makefile=geany.desktop
-application/yaml=geany.desktop
-application/x-shellscript=geany.desktop
-text/plain=geany.desktop
-application/x-zerosize=geany.desktop
+text/x-makefile=org.lite_xl.lite_xl.desktop
+application/yaml=org.lite_xl.lite_xl.desktop
+application/x-shellscript=org.lite_xl.lite_xl.desktop
+text/plain=org.lite_xl.lite_xl.desktop
+application/x-zerosize=org.lite_xl.lite_xl.desktop
