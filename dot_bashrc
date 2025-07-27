@@ -1,6 +1,6 @@
 # Set the default editor
 export EDITOR='nvim'
-export VISUAL='nvim'
+export VISUAL='lite-xl'
 
 # History
 shopt -s histappend
