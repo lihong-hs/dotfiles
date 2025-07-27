@@ -9,7 +9,7 @@
   <property name="misc-single-click" type="bool" value="false"/>
   <property name="default-view" type="string" value="ThunarDetailsView"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
-  <property name="last-details-view-column-widths" type="string" value="50,50,132,123,50,50,50,50,531,77,50,78,50,381"/>
+  <property name="last-details-view-column-widths" type="string" value="50,50,132,123,50,50,50,50,392,310,50,78,50,287"/>
   <property name="misc-thumbnail-max-file-size" type="uint64" value="10485760"/>
   <property name="misc-middle-click-in-tab" type="bool" value="true"/>
   <property name="misc-open-new-window-as-tab" type="bool" value="true"/>
