@@ -7,6 +7,15 @@ local keymap = require "core.keymap"
 local config = require "core.config"
 local style = require "core.style"
 
+
+
+config.borderless = true
+
+config.animation_rate = 2
+
+config.indent_size = 4 -- set indentation to 4
+config.tab_type =  "soft"    -- "soft" for spaces, "hard" for tabs
+
 ------------------------------ Themes ----------------------------------------
 
 -- light theme:
@@ -61,14 +70,14 @@ core.reload_module("colors.github_dark")
 ---------------------------- Miscellaneous -------------------------------------
 
 -- modify list of files to ignore when indexing the project:
--- config.ignore_files = {
---   -- folders
---   "^%.svn/",        "^%.git/",   "^%.hg/",        "^CVS/", "^%.Trash/", "^%.Trash%-.*/",
---   "^node_modules/", "^%.cache/", "^__pycache__/",
---   -- files
---   "%.pyc$",         "%.pyo$",       "%.exe$",        "%.dll$",   "%.obj$", "%.o$",
---   "%.a$",           "%.lib$",       "%.so$",         "%.dylib$", "%.ncb$", "%.sdf$",
---   "%.suo$",         "%.pdb$",       "%.idb$",        "%.class$", "%.psd$", "%.db$",
---   "^desktop%.ini$", "^%.DS_Store$", "^%.directory$",
--- }
+config.ignore_files = {
+  -- folders
+  "^%.svn/",        "^%.git/",   "^%.hg/",        "^CVS/", "^%.Trash/", "^%.Trash%-.*/",
+  "^node_modules/", "^%.cache/", "^__pycache__/",
+  -- files
+  "%.pyc$",         "%.pyo$",       "%.exe$",        "%.dll$",   "%.obj$", "%.o$",
+  "%.a$",           "%.lib$",       "%.so$",         "%.dylib$", "%.ncb$", "%.sdf$",
+  "%.suo$",         "%.pdb$",       "%.idb$",        "%.class$", "%.psd$", "%.db$",
+  "^desktop%.ini$", "^%.DS_Store$", "^%.directory$",
+}
 
