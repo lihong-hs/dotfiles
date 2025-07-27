@@ -7,7 +7,7 @@ width=1920
 
 [org/gnome/Console]
 last-window-maximised=false
-last-window-size=(1040, 772)
+last-window-size=(1501, 687)
 
 [org/gnome/Music]
 window-maximized=true
@@ -22,13 +22,17 @@ show-map=true
 show-right-margin=true
 tab-width=uint32 2
 
+[org/gnome/Totem]
+active-plugins=['variable-rate', 'movie-properties', 'rotation', 'mpris', 'recent', 'save-file', 'screenshot', 'apple-trailers', 'open-directory', 'screensaver', 'skipto', 'autoload-subtitles', 'vimeo']
+subtitle-encoding='UTF-8'
+
 [org/gnome/calendar]
 active-view='month'
 window-maximized=true
 window-size=(768, 600)
 
 [org/gnome/control-center]
-last-panel='keyboard'
+last-panel='display'
 window-state=(980, 628, false)
 
 [org/gnome/desktop/app-folders]
@@ -80,6 +84,7 @@ xkb-options=@as []
 color-scheme='prefer-dark'
 enable-hot-corners=false
 gtk-theme='Adwaita-dark'
+icon-theme='Adwaita'
 
 [org/gnome/desktop/notifications]
 application-children=['firefox', 'org-gnome-texteditor', 'org-gnome-tweaks', 'org-gnome-console', 'gnome-power-panel', 'geany', 'thunar', 'org-gnome-nautilus']
@@ -233,6 +238,7 @@ menu-layout='Windows'
 multi-monitor=false
 pinned-apps=[{'id': 'firefox.desktop'}, {'id': 'org.gnome.Nautilus.desktop'}, {'id': 'gnome-extensions prefs arcmenu@arcmenu.com', 'name': 'ArcMenu Settings', 'icon': 'ArcMenu_ArcMenuIcon'}]
 prefs-visible-page=0
+recently-installed-apps=@as []
 runner-hotkey=['<Super>w']
 runner-menu-width=700
 runner-position='Centered'
@@ -254,13 +260,14 @@ context-menu-entries='[{"title":"System monitor","cmd":"xfce4-taskmanager"},{"ti
 dot-position='BOTTOM'
 extension-version=68
 group-apps=false
+hide-overview-on-startup=true
 hotkeys-overlay-combo='TEMPORARILY'
 isolate-monitors=true
 isolate-workspaces=true
 middle-click-action='QUIT'
 overview-click-to-exit=true
 panel-anchors='{"LGD-0x00000000":"MIDDLE","GSM-0x0007376c":"MIDDLE"}'
-panel-element-positions='{"LGD-0x00000000":[{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"activitiesButton","visible":true,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":false,"position":"stackedBR"}],"GSM-0x0007376c":[{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"activitiesButton","visible":true,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"centered"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":false,"position":"stackedBR"}]}'
+panel-element-positions='{"LGD-0x00000000":[{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"activitiesButton","visible":true,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"centered"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":false,"position":"stackedBR"}],"GSM-0x0007376c":[{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"activitiesButton","visible":true,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"centered"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":false,"position":"stackedBR"}]}'
 panel-lengths='{"LGD-0x00000000":100}'
 panel-positions='{"LGD-0x00000000":"TOP","GSM-0x0007376c":"TOP"}'
 panel-sizes='{"LGD-0x00000000":32,"GSM-0x0007376c":32}'
