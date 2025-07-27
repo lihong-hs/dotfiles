@@ -87,6 +87,10 @@ alias cmezsh="chezmoi edit ~/.zshrc"
 alias dconf-dump='dconf dump / > ~/.config/dconf/user.txt'
 alias dconf-load='dconf load / < ~/.config/dconf/user.txt'
 
+# Distrobox
+alias toarch='distrobox enter arch'
+alias hostexec='distrobox-host-exec'
+
 # List of all installed desktops - xsessions desktops
 alias listxsessions="ls /usr/share/xsessions"
 alias listwsessions="ls /usr/share/wayland-sessions"
@@ -169,6 +173,7 @@ alias depends='function_depends'
 
 alias nrun='nix-shell -p $1'
 alias nswitch='sudo nixos-rebuild switch'
+alias nflake-switch='sudo nixos-rebuild switch --flake ~/nixos-config'
 alias cleanup='sudo nix-collect-garbage -d && nix-collect-garbage -d'
 alias cleanup-dryrun='sudo nix-collect-garbage -d --dry-run && nix-collect-garbage -d --dry-run'
 
