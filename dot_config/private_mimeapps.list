@@ -1,14 +1,16 @@
 [Default Applications]
-text/plain=org.lite_xl.lite_xl.desktop
+text/plain=dev.zed.Zed.desktop
 inode/directory=thunar.desktop
-application/octet-stream=org.lite_xl.lite_xl.desktop
+application/octet-stream=dev.zed.Zed.desktop
 
 [Added Associations]
-text/plain=org.lite_xl.lite_xl.desktop
+text/plain=dev.zed.Zed.desktop;
 inode/directory=thunar.desktop;pcmanfm-qt.desktop;
-text/x-makefile=org.lite_xl.lite_xl.desktop;
-application/yaml=org.lite_xl.lite_xl.desktop;
-application/x-shellscript=org.lite_xl.lite_xl.desktop;
-application/x-zerosize=org.lite_xl.lite_xl.desktop;
-application/octet-stream=org.lite_xl.lite_xl.desktop;
+text/x-makefile=dev.zed.Zed.desktop;
+application/yaml=dev.zed.Zed.desktop;
+application/x-shellscript=dev.zed.Zed.desktop;
+application/x-zerosize=dev.zed.Zed.desktop;
+application/octet-stream=dev.zed.Zed.desktop;
 image/svg+xml=org.xfce.ristretto.desktop;
+text/x-lua=dev.zed.Zed.desktop;
+application/json=dev.zed.Zed.desktop;

@@ -1,7 +1,7 @@
 [Default Applications]
 inode/directory=thunar.desktop
-text/x-makefile=org.lite_xl.lite_xl.desktop
-application/yaml=org.lite_xl.lite_xl.desktop
-application/x-shellscript=org.lite_xl.lite_xl.desktop
-text/plain=org.lite_xl.lite_xl.desktop
-application/x-zerosize=org.lite_xl.lite_xl.desktop
+text/x-makefile=dev.zed.Zed.desktop
+application/yaml=dev.zed.Zed.desktop
+application/x-shellscript=dev.zed.Zed.desktop
+text/plain=dev.zed.Zed.desktop
+application/x-zerosize=dev.zed.Zed.desktop
