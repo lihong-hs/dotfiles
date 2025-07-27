@@ -12,7 +12,7 @@ source "${ZINIT_HOME}/zinit.zsh"
 
 # Set the default editor
 export EDITOR='nvim'
-export VISUAL='nvim'
+export VISUAL='lite-xl'
 
 # Executables PATH
 if [ -d "$HOME/.bin" ] ;
