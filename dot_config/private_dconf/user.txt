@@ -230,16 +230,16 @@ favorite-apps=['firefox.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Nauti
 welcome-dialog-last-shown-version='48.2'
 
 [org/gnome/shell/extensions/arcmenu]
-arcmenu-hotkey=['<Super>a']
+arcmenu-hotkey=['<Super>w']
 dash-to-panel-standalone=false
 enable-horizontal-flip=true
 menu-button-appearance='None'
-menu-layout='Windows'
+menu-layout='Runner'
 multi-monitor=false
 pinned-apps=[{'id': 'firefox.desktop'}, {'id': 'org.gnome.Nautilus.desktop'}, {'id': 'gnome-extensions prefs arcmenu@arcmenu.com', 'name': 'ArcMenu Settings', 'icon': 'ArcMenu_ArcMenuIcon'}]
 prefs-visible-page=0
 recently-installed-apps=@as []
-runner-hotkey=['<Super>w']
+runner-hotkey=@as []
 runner-menu-width=700
 runner-position='Centered'
 runner-show-frequent-apps=true
