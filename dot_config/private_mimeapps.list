@@ -1,16 +1,16 @@
 [Default Applications]
-text/plain=dev.zed.Zed.desktop
+text/plain=geany.desktop
 inode/directory=thunar.desktop
-application/octet-stream=dev.zed.Zed.desktop
+application/octet-stream=geany.desktop
 
 [Added Associations]
-text/plain=dev.zed.Zed.desktop;
+text/plain=geany.desktop;
 inode/directory=thunar.desktop;pcmanfm-qt.desktop;
-text/x-makefile=dev.zed.Zed.desktop;
-application/yaml=dev.zed.Zed.desktop;
-application/x-shellscript=dev.zed.Zed.desktop;
-application/x-zerosize=dev.zed.Zed.desktop;
-application/octet-stream=dev.zed.Zed.desktop;
+text/x-makefile=geany.desktop;
+application/yaml=geany.desktop;
+application/x-shellscript=geany.desktop;
+application/x-zerosize=geany.desktop;
+application/octet-stream=geany.desktop;
 image/svg+xml=org.xfce.ristretto.desktop;
-text/x-lua=dev.zed.Zed.desktop;
-application/json=dev.zed.Zed.desktop;
+text/x-lua=geany.desktop;
+application/json=geany.desktop;
