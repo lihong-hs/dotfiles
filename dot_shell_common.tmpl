@@ -123,7 +123,7 @@ ex ()
   fi
 }
 
-{{ if eq .chezmoi.osRelease.name "Arch Linux" -}}
+
 ####
 ## Arch Linux specific
 ####
@@ -164,7 +164,7 @@ function_depends()  {
     }
 alias depends='function_depends'
 
-{{ else if eq .chezmoi.osRelease.name "NixOS" -}}
+
 ####
 ## NixOS specific
 ####
@@ -172,9 +172,10 @@ alias depends='function_depends'
 alias nrun='nix-shell -p $1'
 alias nswitch='sudo nixos-rebuild switch'
 alias nupdate='sudo nix-channel --update'
-alias nflake-switch='sudo nixos-rebuild switch --flake ~/NixOS'
+alias nfupdate='sudo nixos-rebuild switch --recreate-lock-file --flake ~/NixOS'
+alias nfswitch='sudo nixos-rebuild switch --flake ~/NixOS'
 alias nclean='sudo nix-collect-garbage -d && nix-collect-garbage -d'
-alias nlean-dryrun='sudo nix-collect-garbage -d --dry-run && nix-collect-garbage -d --dry-run'
+alias nclean-dryrun='sudo nix-collect-garbage -d --dry-run && nix-collect-garbage -d --dry-run'
 
 
 {{- end -}}
