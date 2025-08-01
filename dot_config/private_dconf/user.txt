@@ -1,5 +1,5 @@
 [com/ranfdev/DistroShelf]
-selected-terminal='GNOME Terminal'
+selected-terminal='GNOME Console'
 
 [io/github/celluloid-player/celluloid/window-state]
 height=1172
@@ -10,7 +10,7 @@ width=1920
 
 [org/gnome/Console]
 last-window-maximised=false
-last-window-size=(1261, 822)
+last-window-size=(1261, 811)
 
 [org/gnome/Music]
 window-maximized=true
@@ -77,13 +77,18 @@ duration-seconds=uint32 300
 interval-seconds=uint32 1800
 play-sound=true
 
+[org/gnome/desktop/calendar]
+show-weekdate=true
+
 [org/gnome/desktop/input-sources]
-mru-sources=[('xkb', 'us'), ('ibus', 'libpinyin'), ('xkb', 'th')]
+mru-sources=[('xkb', 'us'), ('xkb', 'th'), ('ibus', 'libpinyin')]
 show-all-sources=true
 sources=[('xkb', 'us'), ('ibus', 'libpinyin'), ('xkb', 'th')]
 xkb-options=@as []
 
 [org/gnome/desktop/interface]
+clock-show-seconds=true
+clock-show-weekday=true
 color-scheme='prefer-dark'
 enable-hot-corners=false
 gtk-theme='Adwaita-dark'
@@ -129,7 +134,7 @@ application-id='Vial.desktop'
 application-id='xfce4-taskmanager.desktop'
 
 [org/gnome/desktop/peripherals/keyboard]
-numlock-state=false
+numlock-state=true
 
 [org/gnome/desktop/peripherals/touchpad]
 two-finger-scrolling-enabled=true
