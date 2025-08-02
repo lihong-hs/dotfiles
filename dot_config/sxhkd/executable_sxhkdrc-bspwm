@@ -52,7 +52,7 @@ super + a
 #    bspc node @/ -R 90
 
 #kill
-super + Escape
+super + q
     bspc node -c
 
 
