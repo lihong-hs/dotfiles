@@ -2,6 +2,7 @@
 text/plain=dev.zed.Zed.desktop
 inode/directory=thunar.desktop
 application/octet-stream=zed.Zed.desktop
+application/pdf=org.gnome.Evince.desktop
 
 [Added Associations]
 text/plain=dev.zed.Zed.desktop;
@@ -14,3 +15,4 @@ application/octet-stream=zed.Zed.desktop;
 image/svg+xml=org.xfce.ristretto.desktop;
 text/x-lua=zed.Zed.desktop;
 application/json=dev.zed.Zed.desktop;
+application/pdf=org.gnome.Evince.desktop;
