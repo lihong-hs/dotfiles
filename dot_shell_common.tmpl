@@ -178,6 +178,7 @@ alias nswitch='sudo nixos-rebuild switch'
 alias nupdate='sudo nix-channel --update'
 alias nfupdate='sudo nixos-rebuild switch --recreate-lock-file --flake ~/NixOS'
 alias nfswitch='sudo nixos-rebuild switch --flake ~/NixOS'
+alias nftest='sudo nixos-rebuild test --flake ~/NixOS'
 alias nclean='sudo nix-collect-garbage -d && nix-collect-garbage -d'
 alias nclean-dryrun='sudo nix-collect-garbage -d --dry-run && nix-collect-garbage -d --dry-run'
 
