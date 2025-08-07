@@ -20,7 +20,7 @@ wallpaperplugin=org.kde.slideshow
 positions={"1920x1080":[],"3491x1964":[]}
 
 [Containments][1][Wallpaper][org.kde.slideshow][General]
-Image=file:///nix/store/663vf9ir9mfqbp2d0jf2wm462cx01wh0-plasma-workspace-wallpapers-6.4.3/share/wallpapers/Nexus/
+Image=file:///nix/store/663vf9ir9mfqbp2d0jf2wm462cx01wh0-plasma-workspace-wallpapers-6.4.3/share/wallpapers/Shell/
 
 [Containments][2]
 ItemGeometries-2259x1271=
