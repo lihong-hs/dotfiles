@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=io.github.BrisklyDev.Brisk
+X-XDP-Autostart=io.github.BrisklyDev.Brisk
+Exec=flatpak run --command=brisk io.github.BrisklyDev.Brisk --from-startup
+X-Flatpak=io.github.BrisklyDev.Brisk
