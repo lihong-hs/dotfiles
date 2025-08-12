@@ -84,10 +84,15 @@ alias cmra-dconf="chezmoi re-add ~/.config/dconf/user.ini"
 alias cmra-mimeapps="chezmoi re-add ~/.config/mimeapps.list"
 alias cmra-gnomemimeapps="chezmoi re-add ~/.config/gnome-mimeapps.list"
 alias cmra-cosmic="chezmoi re-add -r ~/.config/cosmic"
+alias cmra-konsave="chezmoi re-add -r ~/.config/konsave"
 
 # dconf
 alias dconf-dump='dconf dump / > ~/.config/dconf/user.ini'
 alias dconf-load='dconf load / < ~/.config/dconf/user.ini'
+
+# konsave
+alias kksave-save='konsave --remove main && konsave --save main'
+alias kksave-load='konsave --apply main'
 
 # Distrobox
 alias toarch='distrobox enter arch'
@@ -176,8 +181,7 @@ alias depends='function_depends'
 alias ncd='cd ~/NixOS'
 alias nrun='nix-shell -p $1'
 alias nswitch='sudo nixos-rebuild switch'
-alias nupdate='sudo nix-channel --update'
-alias nfupdate='sudo nixos-rebuild switch --recreate-lock-file --flake ~/NixOS'
+alias nfupdate='nix flake update '
 alias nfswitch='sudo nixos-rebuild switch --flake ~/NixOS'
 alias nftest='sudo nixos-rebuild test --flake ~/NixOS'
 alias nfboot='sudo nixos-rebuild boot --flake ~/NixOS'
