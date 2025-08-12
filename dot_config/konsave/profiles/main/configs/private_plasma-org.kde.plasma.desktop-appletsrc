@@ -21,7 +21,7 @@ wallpaperplugin=org.kde.slideshow
 positions={"1920x1080":[],"3491x1964":[],"3840x2160":[]}
 
 [Containments][1][Wallpaper][org.kde.slideshow][General]
-Image=file:///nix/store/gjj0gk15hz9b44gdhp31p8h72pr3nnnh-plasma-workspace-wallpapers-6.4.4/share/wallpapers/PastelHills/
+Image=file:///nix/store/gjj0gk15hz9b44gdhp31p8h72pr3nnnh-plasma-workspace-wallpapers-6.4.4/share/wallpapers/Volna/
 
 [Containments][2]
 ItemGeometries-2259x1271=
@@ -132,7 +132,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][26][Applets][31][Applets][46][Configuration]
-PreloadWeight=12
+PreloadWeight=0
 
 [Containments][26][Applets][31][Applets][47]
 immutability=1
@@ -237,9 +237,28 @@ compactMode=true
 favoritesPortedToKAstats=true
 systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
+[Containments][26][Applets][84]
+immutability=1
+plugin=org.kde.plasma.quicklaunch
+
+[Containments][26][Applets][84][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][26][Applets][84][Configuration][General]
+launcherUrls=file:///nix/store/rxwg5vacg85nqy6rdrbfwp80d52dxxh5-system-path/share/applications/org.kde.plasma-systemmonitor.desktop,file:///nix/store/rxwg5vacg85nqy6rdrbfwp80d52dxxh5-system-path/share/applications/org.kde.konsole.desktop,file:///nix/store/rxwg5vacg85nqy6rdrbfwp80d52dxxh5-system-path/share/applications/org.kde.dolphin.desktop,file:///var/lib/flatpak/exports/share/applications/one.ablaze.floorp.desktop,file:///nix/store/81m4kyvgpwcyx6qfi49dj6yw20aadrjj-system-path/share/applications/org.cryptomator.Cryptomator.desktop,file:///nix/store/81m4kyvgpwcyx6qfi49dj6yw20aadrjj-system-path/share/applications/org.keepassxc.KeePassXC.desktop,file:///var/lib/flatpak/exports/share/applications/com.vivaldi.Vivaldi.desktop
+
+[Containments][26][Applets][85]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][26][Applets][85][Configuration]
+localPath=/home/lh/.local/share/plasma_icons/systemsettings.desktop
+url=file:///nix/store/rxwg5vacg85nqy6rdrbfwp80d52dxxh5-system-path/share/applications/systemsettings.desktop
+
 [Containments][26][General]
-AppletOrder=82;76;78;49;77;31;43;44
+AppletOrder=82;76;85;84;78;49;77;31;43;44
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=
+screenMapping=desktop:/io.gitlab.gjwu.pdf-tinkerer.desktop,0,650a3575-35d8-49b2-9c62-35a82715a5a1
