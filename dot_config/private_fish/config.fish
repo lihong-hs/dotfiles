@@ -12,3 +12,8 @@ if status is-interactive
 
     fastfetch
 end
+
+# Added by LM Studio CLI (lms)
+set -gx PATH $PATH /home/lh/.lmstudio/bin
+# End of LM Studio CLI section
+

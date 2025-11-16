@@ -1,6 +1,7 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
 switch-to-activity-650a3575-35d8-49b2-9c62-35a82715a5a1=none,none,Switch to activity "Default"
+switch-to-activity-786eb92d-f963-48cf-b92c-102752a11b6b=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
 Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Keyboard Layout
@@ -137,7 +138,7 @@ Window One Screen Down=none,,Move Window One Screen Down
 Window One Screen Up=none,,Move Window One Screen Up
 Window One Screen to the Left=none,,Move Window One Screen to the Left
 Window One Screen to the Right=none,,Move Window One Screen to the Right
-Window Operations Menu=Alt+F3,Alt+F3,Window Operations Menu
+Window Operations Menu=Alt+F3,Alt+F3,Window Menu
 Window Pack Down=none,,Move Window Down
 Window Pack Left=none,,Move Window Left
 Window Pack Right=none,,Move Window Right
@@ -152,7 +153,7 @@ Window Quick Tile Top Left=none,,Quick Tile Window to the Top Left
 Window Quick Tile Top Right=none,,Quick Tile Window to the Top Right
 Window Raise=none,,Raise Window
 Window Resize=none,,Resize Window
-Window Shade=none,,Shade Window
+Window Shade=none,none,Shade Window
 Window Shrink Horizontal=none,,Shrink Window Horizontally
 Window Shrink Vertical=none,,Shrink Window Vertically
 Window to Desktop 1=none,,Window to Desktop 1
@@ -224,7 +225,7 @@ karousel-columns-squeeze-left=none,none,Karousel: Squeeze left column onto the s
 karousel-columns-squeeze-right=Meta+Ctrl+D,none,Karousel: Squeeze right column onto the screen
 karousel-columns-width-equalize=Meta+V,none,Karousel: Equalize widths of visible columns
 karousel-cycle-preset-widths=Meta+R,none,Karousel: Cycle through preset column widths
-karousel-cycle-preset-widths-reverse=Meta+Shift+R,none,Karousel: Cycle through preset column widths in reverse
+karousel-cycle-preset-widths-reverse=Meta+A,none,Karousel: Cycle through preset column widths in reverse
 karousel-focus-1=none,none,Karousel: Move focus to column 1
 karousel-focus-10=none,none,Karousel: Move focus to column 10
 karousel-focus-11=none,none,Karousel: Move focus to column 11
@@ -318,6 +319,7 @@ _k_friendly_name=Power Management
 powerProfile=Battery,Battery\tMeta+B,Switch Power Profile
 
 [plasmashell]
+Slideshow Wallpaper Next Image=none,,Next Wallpaper Image
 _k_friendly_name=plasmashell
 activate application launcher=Alt+F1,Meta\tAlt+F1,Activate Application Launcher
 activate task manager entry 1=none,Meta+1,Activate Task Manager Entry 1
@@ -339,7 +341,7 @@ cycleNextAction=none,,Next History Item
 cyclePrevAction=none,,Previous History Item
 edit_clipboard=none,,Edit Contents…
 manage activities=none,Meta+Q,Show Activity Switcher
-next activity=Meta+A,none,Walk through activities
+next activity=none,none,Walk through activities
 previous activity=Meta+Shift+A,none,Walk through activities (Reverse)
 repeat_action=none,,Manually Invoke Action on Current Clipboard
 show dashboard=none,Ctrl+F12,Show Desktop
@@ -370,3 +372,6 @@ RecordRegion=none
 RecordScreen=none
 RecordWindow=none
 _launch=Print
+
+[services][org.mozilla.firefox.desktop]
+_launch=Meta+S

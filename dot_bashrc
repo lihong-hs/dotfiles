@@ -27,3 +27,8 @@ bind "set completion-ignore-case on"
 
 # zoxide shell integrations
 eval "$(zoxide init --cmd cd bash)"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/lh/.lmstudio/bin"
+# End of LM Studio CLI section
+

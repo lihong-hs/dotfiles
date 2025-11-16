@@ -88,3 +88,8 @@ eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 
 fastfetch
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/lh/.lmstudio/bin"
+# End of LM Studio CLI section
+
