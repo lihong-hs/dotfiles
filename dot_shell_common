@@ -3,6 +3,7 @@
 ####
 
 alias c='clear'
+alias ff='fastfetch'
 
 # List
 alias ls='ls --color=auto'
@@ -104,8 +105,8 @@ alias kksave-save='konsave --remove main && konsave --save main'
 alias kksave-load='konsave --apply main'
 
 # Distrobox
-alias toarch='distrobox enter arch'
-alias tofedora='distrobox enter fedora'
+alias toarch='distrobox enter arch -- zsh'
+alias tofedora='distrobox enter fedora -- zsh'
 alias hostexec='distrobox-host-exec'
 
 # List of all installed desktops - xsessions desktops
@@ -115,6 +116,9 @@ alias listwsessions="ls /usr/share/wayland-sessions"
 # btrfs aliases
 alias btrfsfs="sudo btrfs filesystem df /"
 alias btrfsli="sudo btrfs su li / -t"
+
+# ClamAV aliases
+alias cscand="clamdscan --multiscan --fdpass"
 
 # ex = EXtractor for all kinds of archives usage: ex <file>
 ex ()
@@ -153,6 +157,7 @@ alias pacunlock="sudo rm /var/lib/pacman/db.lck"
 alias paclog="bat /var/log/pacman.log"
 alias rmpacmanlock="sudo rm /var/lib/pacman/db.lck"
 alias dup='sudo yay -Syyu'
+alias yay='yay --color auto'
 
 # Cleanup orphaned packages
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
@@ -197,4 +202,3 @@ alias nftest='sudo nixos-rebuild test --flake ~/NixOS'
 alias nfboot='sudo nixos-rebuild boot --flake ~/NixOS'
 alias nclean='sudo nix-collect-garbage -d && nix-collect-garbage -d'
 alias nclean-dryrun='sudo nix-collect-garbage -d --dry-run && nix-collect-garbage -d --dry-run'
-
