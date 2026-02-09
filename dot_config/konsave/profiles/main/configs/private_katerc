@@ -7,13 +7,24 @@ Show Status Bar=true
 Show Tab Bar=true
 Show Url Nav Bar=true
 
+[KTextEditor Renderer]
+Animate Bracket Matching=false
+Auto Color Theme Selection=true
+Color Theme=Breeze Dark
+Line Height Multiplier=1
+Show Indentation Lines=false
+Show Whole Bracket Expression=false
+Text Font=monospace,10,-1,5,400,0,0,0,1,0,0,0,0,0,0,1
+Text Font Features=
+Word Wrap Marker=false
+
 [MainWindow]
 3339x1878 screen: Height=1782
 3339x1878 screen: Width=2003
 3491x1964 screen: Height=1868
 3491x1964 screen: Width=2095
-3840x2160 screen: Height=2063
-3840x2160 screen: Width=656
+3840x2160 screen: Height=2072
+3840x2160 screen: Width=640
 
 [filetree]
 editShade=30,78,103

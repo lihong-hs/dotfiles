@@ -25,8 +25,8 @@ ViewPropsTimestamp=2025,8,5,23,19,5.8629999999999995
 Places Icons Auto-resize=false
 Places Icons Static Size=22
 
-[MainWindow]
-MenuBar=Disabled
-
 [PreviewSettings]
 Plugins=appimagethumbnail,evince,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs,gnome-font-viewer
+
+[Search]
+Location=Everywhere
